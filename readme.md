@@ -1,0 +1,1 @@
+A bot that adds a button to pick up the song that is running on YouTube and adds it to a playlist on Spotify.
