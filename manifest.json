@@ -1,0 +1,32 @@
+{
+
+    "manifest_version": 2,
+    "name": "sBOTify",
+    "version": "0.1",
+  
+    "content_scripts": [
+        {
+            "matches": ["https://youtube.com/*"],
+            "css": ["style.css"],
+            "js": ["script.js"]
+        }
+    ]
+  
+    "permissions": [
+      "http://*/*",
+      "https://*/*"
+    ],  
+  
+    "browser_action": {
+      "default_icon": "button/beasts.png",
+      "default_title": "Beastify",
+      "default_popup": "popup/choose_beast.html"
+    },
+    
+    "web_accessible_resources": [
+      "beasts/frog.jpg",
+      "beasts/turtle.jpg",
+      "beasts/snake.jpg"
+    ]
+  
+  }
