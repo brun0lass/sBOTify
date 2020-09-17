@@ -1,0 +1,15 @@
+{
+  "name": "sBOTify",
+  "version": "1.0.0",
+  "description": "Facilitate the integration of spotify with spotify",
+  "main": "api.js",
+  "repository": "https://github.com/Brun0Lass/sBOTify.git",
+  "author": "Brun0lass and IgorAmon",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "sucrase": "^3.15.0"
+  }
+}
